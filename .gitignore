@@ -1,0 +1,4 @@
+app/agents/
+app/tests/
+__pycache__/
+venv/
