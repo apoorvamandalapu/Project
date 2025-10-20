@@ -6,10 +6,10 @@ class Driver(BaseModel):
     driverId: str
     permanentNumber: Optional[str] = None
     code: Optional[str] = None
-    url: str
+    url: Optional[str] = None
     givenName: str
     familyName: str
-    dateOfBirth: str
+    dateOfBirth: Optional[str] = None  
     nationality: str
 
 class LocationName(BaseModel):

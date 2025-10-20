@@ -21,5 +21,4 @@ class Drivers_All(ImportBase):
     familyName = Column(String)
     code = Column(String, nullable=True)
     nationality = Column(String)
-    
     constructorId = Column(String, nullable=True)
